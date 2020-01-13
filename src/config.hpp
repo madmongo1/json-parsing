@@ -5,7 +5,10 @@
 
 namespace program
 {
-    namespace net = boost::asio;
+    namespace asio  = boost::asio;
+    namespace net   = boost::asio;
     namespace beast = boost::beast;
-    namespace ssl = boost::asio::ssl;
-}
+    namespace ssl   = boost::asio::ssl;
+    namespace system = boost::system;
+
+}   // namespace program
